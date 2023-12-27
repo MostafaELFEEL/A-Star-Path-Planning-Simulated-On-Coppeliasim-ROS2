@@ -23,7 +23,7 @@ class pathplanning(Node):
         super().__init__("pathplanning")
         self.pub = self.create_publisher(Quaternion, 'map', 10)
         self.reset=self.create_publisher(Bool, 'reset', 10)
-        path=os.path.abspath('')+'ros2_ws/src/path_planning/path_planning/2dmaps/map'
+        path=os.path.abspath('')+'/ros2_ws/src/path_planning/path_planning/2dmaps/map'
         while rclpy.ok():
             input_map=int(input("Enter map Number: "))
             msg=Bool()
