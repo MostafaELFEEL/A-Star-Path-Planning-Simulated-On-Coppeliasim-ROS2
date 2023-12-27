@@ -45,7 +45,7 @@ Make sure to change **<Path_to_Coppeliasim_Folder>** with Coppeliasim folder pat
 cd && ros2 run path_planning 2dpath_planning
 ```
 or
-```
+```bash
 cd && ros2 run path_planning 3dpath_planning
 ```
 
