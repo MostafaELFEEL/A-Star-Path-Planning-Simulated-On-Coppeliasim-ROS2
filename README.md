@@ -42,11 +42,11 @@ Make sure to change **<Path_to_Coppeliasim_Folder>** with Coppeliasim folder pat
 
 2. Execute the Python script for 2D or 3D path planning:
 ```bash
-cd ~/ros2_ws && ros2 run path_planning 2dpath_planning
+cd && ros2 run path_planning 2dpath_planning
 ```
 or
 ```
-cd ~/ros2_ws && ros2 run path_planning 3dpath_planning
+cd && ros2 run path_planning 3dpath_planning
 ```
 
 ## Results of 2D path planning: map number 1, 2, and 3. (only 3 maps)
